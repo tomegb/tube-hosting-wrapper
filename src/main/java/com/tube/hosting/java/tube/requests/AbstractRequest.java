@@ -4,7 +4,10 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
+import com.google.gson.JsonSyntaxException;
 import com.tube.hosting.java.tube.RestAccess;
+import com.tube.hosting.java.tube.objects.PlainMessage;
+import com.tube.hosting.java.tube.objects.ResponsableObject;
 import com.tube.hosting.java.tube.requests.post.PostLoginRequest;
 import java.io.IOException;
 import java.util.concurrent.Executor;
@@ -16,7 +19,7 @@ import okhttp3.Response;
 import okhttp3.ResponseBody;
 import org.jetbrains.annotations.NotNull;
 
-public abstract class AbstractRequest<T> {
+public abstract class AbstractRequest<T extends ResponsableObject> {
 
   protected static final Gson GSON = new GsonBuilder().setPrettyPrinting().create();
   protected static final String TUBE_API_LINK = "https://api.tube-hosting.com/";
@@ -39,8 +42,10 @@ public abstract class AbstractRequest<T> {
 
     try (Response response = client.newCall(request).execute()) {
       statusCode = response.code();
-      if (!response.isSuccessful()) {
-        if (firstRequest) {
+      String responseMessage = response.message();
+
+      if (statusCode != 200) {
+        if (firstRequest && statusCode == 401) {
           updateTokenSync(restAccess);
           executeRequest(restAccess, false);
           return;
@@ -54,8 +59,7 @@ public abstract class AbstractRequest<T> {
         throw new IllegalStateException("ResponseBody cannot be loaded.");
       }
 
-      JsonObject responseBodyObject = JsonParser.parseString(responseBody.string()).getAsJsonObject();
-      responseObject = GSON.fromJson(responseBodyObject, responseClass);
+      parseObject(responseBody, responseMessage);
 
       if (restAccess.updateRequired()) {
         updateTokenAsync(restAccess);
@@ -67,6 +71,15 @@ public abstract class AbstractRequest<T> {
 
   public void executeRequest(@NotNull RestAccess restAccess) {
     executeRequest(restAccess, true);
+  }
+
+  private void parseObject(ResponseBody responseBody, String responseMessage) throws IOException {
+    try {
+      JsonObject responseBodyObject = JsonParser.parseString(responseBody.string()).getAsJsonObject();
+      responseObject = GSON.fromJson(responseBodyObject, responseClass);
+    } catch (JsonSyntaxException e) {
+      responseObject = (T) new PlainMessage(responseMessage);
+    }
   }
 
   protected void updateTokenSync(@NotNull RestAccess restAccess) {
