@@ -1,4 +1,4 @@
-# java-tube
+# tube-hosting-wrapper
 Java Wrapper for the Tube-Hosting RestApi
 
 | Object        | available in wrapper |
