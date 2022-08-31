@@ -1,13 +1,17 @@
 package com.tube.hosting.java.tube;
 
+import java.util.concurrent.TimeUnit;
 import okhttp3.OkHttpClient;
 
 public class RestAccess {
+
+  private static final long TOKEN_CACHE_MILLIS = TimeUnit.HOURS.toMillis(1);
 
   private final String email;
   private final String password;
   private final OkHttpClient client;
 
+  private long lastTokenUpdate = 0L;
   private String token;
 
   public RestAccess(String mail, String password) {
@@ -38,5 +42,10 @@ public class RestAccess {
 
   public void setToken(String token) {
     this.token = token;
+    lastTokenUpdate = System.currentTimeMillis();
+  }
+
+  public boolean updateRequired() {
+    return lastTokenUpdate > System.currentTimeMillis() + TOKEN_CACHE_MILLIS;
   }
 }
