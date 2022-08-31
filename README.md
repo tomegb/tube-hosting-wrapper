@@ -1,5 +1,5 @@
 # tube-hosting-wrapper
-Java Wrapper for the Tube-Hosting RestApi
+A Java based API wrapper for the Tube Hosting REST API.
 
 | Object        | available in wrapper |
 | ------------- |:-------------:|
