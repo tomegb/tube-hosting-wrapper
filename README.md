@@ -24,7 +24,7 @@ A Java based API wrapper for the Tube Hosting REST API.
 | DedicatedConfiguration | <ul><li>- [x] </li></ul> | RequestBodyLocale | <ul><li>- [x] </li></ul> | DedicatedStatisticsResult | <ul><li>- [x] </li></ul> |
 | DedicatedGPUUpgrade | <ul><li>- [x] </li></ul> | AuthenticationLoginData | <ul><li>- [x] </li></ul> | GPU | <ul><li>- [x] </li></ul> |
 | DedicatedTemplate | <ul><li>- [x] </li></ul> | VpsStatus | <ul><li>- [x] </li></ul> | Disk | <ul><li>- [x] </li></ul> |
-| RRDDataValue |<ul><li>- [x] </li></ul> |  | <ul><li>- [x] </li></ul> |  | <ul><li>- [x] </li></ul> |
+| RRDDataValue |<ul><li>- [x] </li></ul> | 
 
 
 
