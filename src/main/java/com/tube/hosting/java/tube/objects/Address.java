@@ -1,19 +1,17 @@
 package com.tube.hosting.java.tube.objects;
 
-import org.jetbrains.annotations.NotNull;
-
 public class Address extends ResponsableObject {
 
-  private final @NotNull String company;
-  private final @NotNull String city;
-  private final @NotNull String street;
-  private final @NotNull String streetNumber;
-  private final @NotNull String numberAdditive;
-  private final @NotNull String country;
-  private final @NotNull String postalCode;
+  private final String company;
+  private final String city;
+  private final String street;
+  private final String streetNumber;
+  private final String numberAdditive;
+  private final String country;
+  private final String postalCode;
 
-  public Address(@NotNull String company, @NotNull String city, @NotNull String street, @NotNull String streetNumber,
-      @NotNull String numberAdditive, @NotNull String country, @NotNull String postalCode) {
+  public Address(String company, String city, String street, String streetNumber, String numberAdditive,
+      String country, String postalCode) {
     this.company = company;
     this.city = city;
     this.street = street;
@@ -23,37 +21,30 @@ public class Address extends ResponsableObject {
     this.postalCode = postalCode;
   }
 
-  @NotNull
   public String getCompany() {
     return company;
   }
 
-  @NotNull
   public String getCity() {
     return city;
   }
 
-  @NotNull
   public String getStreet() {
     return street;
   }
 
-  @NotNull
   public String getStreetNumber() {
     return streetNumber;
   }
 
-  @NotNull
   public String getNumberAdditive() {
     return numberAdditive;
   }
 
-  @NotNull
   public String getCountry() {
     return country;
   }
 
-  @NotNull
   public String getPostalCode() {
     return postalCode;
   }
