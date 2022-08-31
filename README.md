@@ -1,7 +1,7 @@
 # java-tube
 Java Wrapper for the Tube-Hosting RestApi
 
-| Object        | in Wrapper available |
+| Object        | available in wrapper |
 | ------------- |:-------------:|
 | PasswordChange      | <ul><li>- [x] </li></ul> |
 | DescriptionBody      | <ul><li>- [x] </li></ul> |
