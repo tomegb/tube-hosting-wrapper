@@ -15,16 +15,16 @@ A Java based API wrapper for the Tube Hosting REST API.
 | SupportData | <ul><li>- [x] </li></ul> | ServiceGroupMetaData | <ul><li>- [x] </li></ul> |  | <ul><li>- [x] </li></ul> |
 | User | <ul><li>- [x] </li></ul> | SimpleUser | <ul><li>- [x] </li></ul> |  | <ul><li>- [x] </li></ul> |
 | UserPaymentInfo |<ul><li>- [x] </li></ul> | SingleServiceGroupData | <ul><li>- [x] </li></ul> |  | <ul><li>- [x] </li></ul> |
-| BalanceSendingRequest | <ul><li>- [x] </li></ul> |  | <ul><li>- [x] </li></ul> |  | <ul><li>- [x] </li></ul> |
-| BalanceChargeRequestBody | <ul><li>- [x] </li></ul> |  | <ul><li>- [x] </li></ul> |  | <ul><li>- [x] </li></ul> |
-| PaymentResponse | <ul><li>- [x] </li></ul> |  | <ul><li>- [x] </li></ul> |  | <ul><li>- [x] </li></ul> |
-| CPU | <ul><li>- [x] </li></ul> |  | <ul><li>- [x] </li></ul> |  | <ul><li>- [x] </li></ul> |
-| Dedicated |<ul><li>- [x] </li></ul> |  | <ul><li>- [x] </li></ul> |  | <ul><li>- [x] </li></ul> |
-| DedicatedCPUUpgrade | <ul><li>- [x] </li></ul> |  | <ul><li>- [x] </li></ul> |  | <ul><li>- [x] </li></ul> |
-| DedicatedConfiguration | <ul><li>- [x] </li></ul> |  | <ul><li>- [x] </li></ul> |  | <ul><li>- [x] </li></ul> |
-| DedicatedGPUUpgrade | <ul><li>- [x] </li></ul> |  | <ul><li>- [x] </li></ul> |  | <ul><li>- [x] </li></ul> |
-| DedicatedTemplate | <ul><li>- [x] </li></ul> |  | <ul><li>- [x] </li></ul> |  | <ul><li>- [x] </li></ul> |
-| Disk |<ul><li>- [x] </li></ul> |  | <ul><li>- [x] </li></ul> |  | <ul><li>- [x] </li></ul> |
-| GPU | <ul><li>- [x] </li></ul> |  | <ul><li>- [x] </li></ul> |  | <ul><li>- [x] </li></ul> |
+| BalanceSendingRequest | <ul><li>- [x] </li></ul> | StackableDedicatedUpgrade | <ul><li>- [x] </li></ul> |  | <ul><li>- [x] </li></ul> |
+| BalanceChargeRequestBody | <ul><li>- [x] </li></ul> | Template | <ul><li>- [x] </li></ul> |  | <ul><li>- [x] </li></ul> |
+| PaymentResponse | <ul><li>- [x] </li></ul> | TemplateGroup | <ul><li>- [x] </li></ul> |  | <ul><li>- [x] </li></ul> |
+| CPU | <ul><li>- [x] </li></ul> | VPS | <ul><li>- [x] </li></ul> |  | <ul><li>- [x] </li></ul> |
+| Dedicated |<ul><li>- [x] </li></ul> | VPSTemplate | <ul><li>- [x] </li></ul> |  | <ul><li>- [x] </li></ul> |
+| DedicatedCPUUpgrade | <ul><li>- [x] </li></ul> | UserChangePasswordObject | <ul><li>- [x] </li></ul> |  | <ul><li>- [x] </li></ul> |
+| DedicatedConfiguration | <ul><li>- [x] </li></ul> | RequestBodyLocale | <ul><li>- [x] </li></ul> |  | <ul><li>- [x] </li></ul> |
+| DedicatedGPUUpgrade | <ul><li>- [x] </li></ul> | AuthenticationLoginData | <ul><li>- [x] </li></ul> |  | <ul><li>- [x] </li></ul> |
+| DedicatedTemplate | <ul><li>- [x] </li></ul> | VpsStatus | <ul><li>- [x] </li></ul> |  | <ul><li>- [x] </li></ul> |
+| Disk |<ul><li>- [x] </li></ul> | RRDDataValue | <ul><li>- [x] </li></ul> |  | <ul><li>- [x] </li></ul> |
+| GPU | <ul><li>- [x] </li></ul> | LxcOs | <ul><li>- [x] </li></ul> |  | <ul><li>- [x] </li></ul> |
 
 
