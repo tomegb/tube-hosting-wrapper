@@ -3,6 +3,7 @@ package com.tube.hosting.java.tube.objects;
 import org.jetbrains.annotations.NotNull;
 
 public class IPDDoSStatus extends ResponsableObject {
+
   private final @NotNull Layer4 layer4;
   private final @NotNull Layer7 layer7;
 

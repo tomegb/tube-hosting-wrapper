@@ -3,6 +3,7 @@ package com.tube.hosting.java.tube.objects;
 import org.jetbrains.annotations.NotNull;
 
 public class BandwidthResponse extends ResponsableObject {
+
     private final @NotNull String time;
     private final long out;
     private final long in;

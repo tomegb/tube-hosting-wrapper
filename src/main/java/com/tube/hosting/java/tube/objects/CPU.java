@@ -3,11 +3,12 @@ package com.tube.hosting.java.tube.objects;
 import org.jetbrains.annotations.NotNull;
 
 public class CPU extends ResponsableObject {
-    private final @NotNull int id;
-    private final @NotNull int coreCount;
-    private final @NotNull int threadsPerCore;
-    private final @NotNull int baseClock;
-    private final @NotNull int turboClock;
+
+    private final int id;
+    private final int coreCount;
+    private final int threadsPerCore;
+    private final int baseClock;
+    private final int turboClock;
     private final @NotNull String model;
     private final @NotNull String brand;
 

@@ -14,16 +14,17 @@ public class User extends ResponsableObject {
   private final String lastIp;
   private final String regDate;
   private final boolean verified;
-  private final Address address;
   private final boolean debuggingEnabled;
   private final UserPaymentInfo paymentInfo;
   private final String[] ipWhitelist;
   private final PriceTypes priceType;
+
+  private Address address;
+  private SupportData supportData;
   @SerializedName("firstname")
-  private final String firstName;
+  private String firstName;
   @SerializedName("lastname")
-  private final String lastName;
-  private final SupportData supportData;
+  private String lastName;
 
   public User(int id, int balance, String mail, Locale locale, RoleTypes role, boolean enabled, String lastIp,
       String regDate, boolean verified, Address address, boolean debuggingEnabled, UserPaymentInfo paymentInfo,
@@ -113,5 +114,21 @@ public class User extends ResponsableObject {
 
   public SupportData getSupportData() {
     return supportData;
+  }
+
+  public void setAddress(Address address) {
+    this.address = address;
+  }
+
+  public void setSupportData(SupportData supportData) {
+    this.supportData = supportData;
+  }
+
+  public void setFirstName(String firstName) {
+    this.firstName = firstName;
+  }
+
+  public void setLastName(String lastName) {
+    this.lastName = lastName;
   }
 }

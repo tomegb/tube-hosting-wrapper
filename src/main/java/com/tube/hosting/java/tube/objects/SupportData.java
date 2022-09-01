@@ -2,9 +2,9 @@ package com.tube.hosting.java.tube.objects;
 
 public class SupportData extends ResponsableObject {
 
-  private final String discordName;
-  private final String skypeName;
-  private final String phoneNumber;
+  private String discordName;
+  private String skypeName;
+  private String phoneNumber;
 
   public SupportData(String discordName, String skypeName, String phoneNumber) {
     this.discordName = discordName;
@@ -22,5 +22,17 @@ public class SupportData extends ResponsableObject {
 
   public String getPhoneNumber() {
     return phoneNumber;
+  }
+
+  public void setDiscordName(String discordName) {
+    this.discordName = discordName;
+  }
+
+  public void setSkypeName(String skypeName) {
+    this.skypeName = skypeName;
+  }
+
+  public void setPhoneNumber(String phoneNumber) {
+    this.phoneNumber = phoneNumber;
   }
 }

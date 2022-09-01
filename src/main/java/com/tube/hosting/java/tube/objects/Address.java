@@ -2,13 +2,13 @@ package com.tube.hosting.java.tube.objects;
 
 public class Address extends ResponsableObject {
 
-  private final String company;
-  private final String city;
-  private final String street;
-  private final String streetNumber;
-  private final String numberAdditive;
-  private final String country;
-  private final String postalCode;
+  private String company;
+  private String city;
+  private String street;
+  private String streetNumber;
+  private String numberAdditive;
+  private String country;
+  private String postalCode;
 
   public Address(String company, String city, String street, String streetNumber, String numberAdditive,
       String country, String postalCode) {
@@ -47,5 +47,33 @@ public class Address extends ResponsableObject {
 
   public String getPostalCode() {
     return postalCode;
+  }
+
+  public void setCompany(String company) {
+    this.company = company;
+  }
+
+  public void setCity(String city) {
+    this.city = city;
+  }
+
+  public void setStreet(String street) {
+    this.street = street;
+  }
+
+  public void setStreetNumber(String streetNumber) {
+    this.streetNumber = streetNumber;
+  }
+
+  public void setNumberAdditive(String numberAdditive) {
+    this.numberAdditive = numberAdditive;
+  }
+
+  public void setCountry(String country) {
+    this.country = country;
+  }
+
+  public void setPostalCode(String postalCode) {
+    this.postalCode = postalCode;
   }
 }
