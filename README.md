@@ -3,7 +3,7 @@ A Java based API wrapper for the Tube Hosting REST API.
 
 #### Add dependency to your project:
 ´´´
-
+cooming soon
 ´´´
 
 #### Available objecrs in wrapper:
