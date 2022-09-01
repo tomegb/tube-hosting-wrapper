@@ -6,7 +6,7 @@ A Java based API wrapper for the Tube Hosting REST API.
 coming soon
 ```
 
-#### Available objecrs in wrapper:
+#### Available objects in wrapper:
 
 | Object        | Available in wrapper | Object        | Available in wrapper | Object        | Available in wrapper |
 | --- | --- |  --- | --- | --- | --- |
