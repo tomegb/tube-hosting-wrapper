@@ -20,7 +20,11 @@ public abstract class AbstractPostRequest<T extends ResponsableObject, R> extend
 
   @Override
   protected Builder prepareBuilder(@NotNull RestAccess restAccess) {
-    return super.prepareBuilder(restAccess).method("POST",
-        RequestBody.create(GSON.toJson(requestBody), MEDIA_TYPE));
+    Builder prepareBuilder = super.prepareBuilder(restAccess);
+    if (requestBody.getClass().isEnum()) {
+      return prepareBuilder.method("POST", RequestBody.create(requestBody.toString(), MEDIA_TYPE));
+    } else {
+      return prepareBuilder.method("POST", RequestBody.create(GSON.toJson(requestBody), MEDIA_TYPE));
+    }
   }
 }
