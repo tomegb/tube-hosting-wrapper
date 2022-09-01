@@ -1,7 +1,11 @@
 # tube-hosting-wrapper
 A Java based API wrapper for the Tube Hosting REST API.
 
-| Object        | available in wrapper | Object        | available in wrapper | Object        | available in wrapper |
+#### Add dependency to your project!
+
+#### Available objecrs in wrapper:
+
+| Object        | Available in wrapper | Object        | Available in wrapper | Object        | Available in wrapper |
 | --- | --- |  --- | --- | --- | --- |
 | PasswordChange | <ul><li>- [x] </li></ul> | IPv4 | <ul><li>- [x] </li></ul> | KvmOs | <ul><li>- [x] </li></ul> |
 | DescriptionBody |<ul><li>- [x] </li></ul> | IPv4Bundle | <ul><li>- [x] </li></ul> | SearchResultObject | <ul><li>- [x] </li></ul> |
