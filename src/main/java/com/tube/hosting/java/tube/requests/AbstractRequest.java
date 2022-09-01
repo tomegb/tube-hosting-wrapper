@@ -51,7 +51,7 @@ public abstract class AbstractRequest<T extends ResponsableObject> {
           return;
         }
 
-        throw new IllegalStateException("Response is not successfully and results cannot be loaded.");
+        throw new IllegalStateException("Response is not successfully and results cannot be loaded. " + statusCode);
       }
 
       ResponseBody responseBody = response.body();
@@ -73,7 +73,7 @@ public abstract class AbstractRequest<T extends ResponsableObject> {
     executeRequest(restAccess, true);
   }
 
-  private void parseObject(ResponseBody responseBody, String responseMessage) throws IOException {
+  private void parseObject(@NotNull ResponseBody responseBody, String responseMessage) throws IOException {
     try {
       JsonObject responseBodyObject = JsonParser.parseString(responseBody.string()).getAsJsonObject();
       responseObject = GSON.fromJson(responseBodyObject, responseClass);
