@@ -26,11 +26,11 @@ coming soon
 | BalanceChargeRequestBody | <ul><li>- [x] </li></ul> | Template | <ul><li>- [x] </li></ul> | CombahtonDDoSIPStatus | <ul><li>- [x] </li></ul> |
 | PaymentResponse | <ul><li>- [x] </li></ul> | TemplateGroup | <ul><li>- [x] </li></ul> | DDoSMetric | <ul><li>- [x] </li></ul> |
 | CPU | <ul><li>- [x] </li></ul> | VPS | <ul><li>- [x] </li></ul> | DDoSAttack | <ul><li>- [x] </li></ul> |
-| Dedicated |<ul><li>- [x] </li></ul> | VPSTemplate | <ul><li>- [x] </li></ul> | DDoSSample | <ul><li>- [x] </li></ul> |
-| DedicatedCPUUpgrade | <ul><li>- [x] </li></ul> | UserChangePasswordObject | <ul><li>- [x] </li></ul> | BandwidthResponse | <ul><li>- [x] </li></ul> |
-| DedicatedConfiguration | <ul><li>- [x] </li></ul> | RequestBodyLocale | <ul><li>- [x] </li></ul> | DedicatedStatisticsResult | <ul><li>- [x] </li></ul> |
-| DedicatedGPUUpgrade | <ul><li>- [x] </li></ul> | AuthenticationLoginData | <ul><li>- [x] </li></ul> | GPU | <ul><li>- [x] </li></ul> |
-| DedicatedTemplate | <ul><li>- [x] </li></ul> | VpsStatus | <ul><li>- [x] </li></ul> | Disk | <ul><li>- [x] </li></ul> |
+| Dedicated |<ul><li>- [x] </li></ul> | VPSTemplate | <ul><li>- [x] </li></ul> | DDoSSample | <ul><li> </li></ul> |
+| DedicatedCPUUpgrade | <ul><li>- [x] </li></ul> | UserChangePasswordObject | <ul><li>- [x] </li></ul> | BandwidthResponse | <ul><li> </li></ul> |
+| DedicatedConfiguration | <ul><li>- [x] </li></ul> | RequestBodyLocale | <ul><li>- [x] </li></ul> | DedicatedStatisticsResult | <ul><li> </li></ul> |
+| DedicatedGPUUpgrade | <ul><li>- [x] </li></ul> | AuthenticationLoginData | <ul><li>- [x] </li></ul> | GPU | <ul><li> </li></ul> |
+| DedicatedTemplate | <ul><li>- [x] </li></ul> | VpsStatus | <ul><li>- [x] </li></ul> | Disk | <ul><li> </li></ul> |
 | RRDDataValue |<ul><li>- [x] </li></ul> | 
 
 
