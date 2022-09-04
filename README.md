@@ -10,14 +10,14 @@ coming soon
 
 | Object        | Available in wrapper | Object        | Available in wrapper | Object        | Available in wrapper |
 | --- | --- |  --- | --- | --- | --- |
-| PasswordChange | <ul><li>- [x] </li></ul> | IPv4 | <ul><li>- [x] </li></ul> | KvmOs | <ul><li>- [x] </li></ul> |
-| DescriptionBody |<ul><li>- [x] </li></ul> | IPv4Bundle | <ul><li>- [x] </li></ul> | SearchResultObject | <ul><li>- [x] </li></ul> |
-| IpRDNSBody | <ul><li>- [x] </li></ul> | Ipv4BundleTemplate | <ul><li>- [x] </li></ul> | SecondaryOwner | <ul><li>- [x] </li></ul> |
-| IPDDoSStatus | <ul><li>- [x] </li></ul> | LinkIPv4BundleIPv4 | <ul><li>- [x] </li></ul> | CombahtonDDoSAttack | <ul><li>- [x] </li></ul> |
-| VpsReinstall | <ul><li>- [x] </li></ul> | Memory | <ul><li>- [x] </li></ul> | ServiceGroupInvite | <ul><li>- [x] </li></ul> |
+| PasswordChange | <ul><li>- [x] </li></ul> | IPv4 | <ul><li>- [x] </li></ul> | KvmOs | <ul><li> </li></ul> |
+| DescriptionBody |<ul><li>- [x] </li></ul> | IPv4Bundle | <ul><li>- [x] </li></ul> | SearchResultObject | <ul><li> </li></ul> |
+| IpRDNSBody | <ul><li>- [x] </li></ul> | Ipv4BundleTemplate | <ul><li>- [x] </li></ul> | SecondaryOwner | <ul><li> </li></ul> |
+| IPDDoSStatus | <ul><li>- [x] </li></ul> | LinkIPv4BundleIPv4 | <ul><li>- [x] </li></ul> | CombahtonDDoSAttack | <ul><li> </li></ul> |
+| VpsReinstall | <ul><li>- [x] </li></ul> | Memory | <ul><li>- [x] </li></ul> | ServiceGroupInvite | <ul><li> </li></ul> |
 | StatusMessageUserData | <ul><li>- [x] </li></ul> | Price | <ul><li>- [x] </li></ul> | BalanceChange | <ul><li> </li></ul> |
 | AuthenticationRegisterData |<ul><li>- [x] </li></ul> | ServerPosition | <ul><li>- [x] </li></ul> | Invoice | <ul><li> </li></ul> |
-| Address | <ul><li>- [x] </li></ul> | Service | <ul><li>- [x] </li></ul> | InvoiceItem | <ul><li>] </li></ul> |
+| Address | <ul><li>- [x] </li></ul> | Service | <ul><li>- [x] </li></ul> | InvoiceItem | <ul><li> </li></ul> |
 | JWTTokenResponse | <ul><li>- [x] </li></ul> | ServiceGroupData | <ul><li>- [x] </li></ul> | Name | <ul><li> </li></ul> |
 | SupportData | <ul><li>- [x] </li></ul> | ServiceGroupMetaData | <ul><li>- [x] </li></ul> | Payment | <ul><li> </li></ul> |
 | User | <ul><li>- [x] </li></ul> | SimpleUser | <ul><li>- [x] </li></ul> | PaymentBundle | <ul><li> </li></ul> |
