@@ -10,18 +10,18 @@ coming soon
 
 | Object        | Available in wrapper | Object        | Available in wrapper | Object        | Available in wrapper |
 | --- | --- |  --- | --- | --- | --- |
-| PasswordChange | <ul><li>- [x] </li></ul> | IPv4 | <ul><li>- [x] </li></ul> | KvmOs | <ul><li> </li></ul> |
-| DescriptionBody |<ul><li>- [x] </li></ul> | IPv4Bundle | <ul><li>- [x] </li></ul> | SearchResultObject | <ul><li> </li></ul> |
-| IpRDNSBody | <ul><li>- [x] </li></ul> | Ipv4BundleTemplate | <ul><li>- [x] </li></ul> | SecondaryOwner | <ul><li> </li></ul> |
-| IPDDoSStatus | <ul><li>- [x] </li></ul> | LinkIPv4BundleIPv4 | <ul><li>- [x] </li></ul> | CombahtonDDoSAttack | <ul><li> </li></ul> |
-| VpsReinstall | <ul><li>- [x] </li></ul> | Memory | <ul><li>- [x] </li></ul> | ServiceGroupInvite | <ul><li> </li></ul> |
-| StatusMessageUserData | <ul><li>- [x] </li></ul> | Price | <ul><li>- [x] </li></ul> | BalanceChange | <ul><li> </li></ul> |
-| AuthenticationRegisterData |<ul><li>- [x] </li></ul> | ServerPosition | <ul><li>- [x] </li></ul> | Invoice | <ul><li> </li></ul> |
-| Address | <ul><li>- [x] </li></ul> | Service | <ul><li>- [x] </li></ul> | InvoiceItem | <ul><li> </li></ul> |
-| JWTTokenResponse | <ul><li>- [x] </li></ul> | ServiceGroupData | <ul><li>- [x] </li></ul> | Name | <ul><li> </li></ul> |
-| SupportData | <ul><li>- [x] </li></ul> | ServiceGroupMetaData | <ul><li>- [x] </li></ul> | Payment | <ul><li> </li></ul> |
-| User | <ul><li>- [x] </li></ul> | SimpleUser | <ul><li>- [x] </li></ul> | PaymentBundle | <ul><li> </li></ul> |
-| UserPaymentInfo |<ul><li>- [x] </li></ul> | SingleServiceGroupData | <ul><li>- [x] </li></ul> | SearchResultPaymentBundle | <ul><li> </li></ul> |
+| PasswordChange | <ul><li>- [x] </li></ul> | IPv4 | <ul><li> </li></ul> | KvmOs | <ul><li> </li></ul> |
+| DescriptionBody |<ul><li>- [x] </li></ul> | IPv4Bundle | <ul><li> </li></ul> | SearchResultObject | <ul><li> </li></ul> |
+| IpRDNSBody | <ul><li>- [x] </li></ul> | Ipv4BundleTemplate | <ul><li> </li></ul> | SecondaryOwner | <ul><li> </li></ul> |
+| IPDDoSStatus | <ul><li>- [x] </li></ul> | LinkIPv4BundleIPv4 | <ul><li> </li></ul> | CombahtonDDoSAttack | <ul><li> </li></ul> |
+| VpsReinstall | <ul><li>- [x] </li></ul> | Memory | <ul><li> </li></ul> | ServiceGroupInvite | <ul><li> </li></ul> |
+| StatusMessageUserData | <ul><li>- [x] </li></ul> | Price | <ul><li> </li></ul> | BalanceChange | <ul><li> </li></ul> |
+| AuthenticationRegisterData |<ul><li>- [x] </li></ul> | ServerPosition | <ul><li> </li></ul> | Invoice | <ul><li> </li></ul> |
+| Address | <ul><li>- [x] </li></ul> | Service | <ul><li> </li></ul> | InvoiceItem | <ul><li> </li></ul> |
+| JWTTokenResponse | <ul><li>- [x] </li></ul> | ServiceGroupData | <ul><li> </li></ul> | Name | <ul><li> </li></ul> |
+| SupportData | <ul><li>- [x] </li></ul> | ServiceGroupMetaData | <ul><li> </li></ul> | Payment | <ul><li> </li></ul> |
+| User | <ul><li>- [x] </li></ul> | SimpleUser | <ul><li> </li></ul> | PaymentBundle | <ul><li> </li></ul> |
+| UserPaymentInfo |<ul><li>- [x] </li></ul> | SingleServiceGroupData | <ul><li> </li></ul> | SearchResultPaymentBundle | <ul><li> </li></ul> |
 | BalanceSendingRequest | <ul><li>- [x] </li></ul> | StackableDedicatedUpgrade | <ul><li>- [x] </li></ul> | SearchResultBalanceChange | <ul><li> </li></ul> |
 | BalanceChargeRequestBody | <ul><li>- [x] </li></ul> | Template | <ul><li>- [x] </li></ul> | CombahtonDDoSIPStatus | <ul><li> </li></ul> |
 | PaymentResponse | <ul><li>- [x] </li></ul> | TemplateGroup | <ul><li>- [x] </li></ul> | DDoSMetric | <ul><li> </li></ul> |
