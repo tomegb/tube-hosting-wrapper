@@ -22,13 +22,13 @@ coming soon
 | SupportData | <ul><li> </li></ul> | ServiceGroupMetaData | <ul><li> </li></ul> | Payment | <ul><li> </li></ul> |
 | User | <ul><li> </li></ul> | SimpleUser | <ul><li> </li></ul> | PaymentBundle | <ul><li> </li></ul> |
 | UserPaymentInfo |<ul><li> </li></ul> | SingleServiceGroupData | <ul><li> </li></ul> | SearchResultPaymentBundle | <ul><li> </li></ul> |
-| BalanceSendingRequest | <ul><li> </li></ul> | StackableDedicatedUpgrade | <ul><li>- [x] </li></ul> | SearchResultBalanceChange | <ul><li> </li></ul> |
+| BalanceSendingRequest | <ul><li> </li></ul> | StackableDedicatedUpgrade | <ul><li> </li></ul> | SearchResultBalanceChange | <ul><li> </li></ul> |
 | BalanceChargeRequestBody | <ul><li> </li></ul> | Template | <ul><li> </li></ul> | CombahtonDDoSIPStatus | <ul><li> </li></ul> |
 | PaymentResponse | <ul><li> </li></ul> | TemplateGroup | <ul><li> </li></ul> | DDoSMetric | <ul><li> </li></ul> |
 | CPU | <ul><li> </li></ul> | VPS | <ul><li> </li></ul> | DDoSAttack | <ul><li> </li></ul> |
 | Dedicated |<ul><li> </li></ul> | VPSTemplate | <ul><li> </li></ul> | DDoSSample | <ul><li> </li></ul> |
 | DedicatedCPUUpgrade | <ul><li> </li></ul> | UserChangePasswordObject | <ul><li> </li></ul> | BandwidthResponse | <ul><li> </li></ul> |
-| DedicatedConfiguration | <ul><li> </li></ul> | RequestBodyLocale | <ul><li>- </li></ul> | DedicatedStatisticsResult | <ul><li> </li></ul> |
+| DedicatedConfiguration | <ul><li> </li></ul> | RequestBodyLocale | <ul><li> </li></ul> | DedicatedStatisticsResult | <ul><li> </li></ul> |
 | DedicatedGPUUpgrade | <ul><li> </li></ul> | AuthenticationLoginData | <ul><li> </li></ul> | GPU | <ul><li> </li></ul> |
 | DedicatedTemplate | <ul><li> </li></ul> | VpsStatus | <ul><li> </li></ul> | Disk | <ul><li> </li></ul> |
 | RRDDataValue |<ul><li> </li></ul> | 
