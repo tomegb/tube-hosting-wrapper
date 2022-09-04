@@ -18,6 +18,7 @@ import okhttp3.Request.Builder;
 import okhttp3.Response;
 import okhttp3.ResponseBody;
 import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
 
 public abstract class AbstractRequest<T extends ResponsableObject> {
 
@@ -36,7 +37,7 @@ public abstract class AbstractRequest<T extends ResponsableObject> {
     this.responseClass = responseClass;
   }
 
-  private void executeRequest(@NotNull RestAccess restAccess, boolean firstRequest) {
+  private void executeRequest(@NotNull RestAccess restAccess, boolean firstRequest) throws IllegalStateException {
     OkHttpClient client = restAccess.getClient();
     Request request = prepareBuilder(restAccess).build();
 
@@ -101,6 +102,7 @@ public abstract class AbstractRequest<T extends ResponsableObject> {
     return statusCode;
   }
 
+  @Nullable
   public T getResponseObject() {
     return responseObject;
   }
