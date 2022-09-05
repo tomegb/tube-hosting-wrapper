@@ -11,7 +11,7 @@ coming soon
 | Object        | Available in wrapper | Object        | Available in wrapper | Object        | Available in wrapper |
 | --- | --- |  --- | --- | --- | --- |
 | PasswordChange | <ul><li>- [x] </li></ul> | IPv4 | <ul><li> </li></ul> | KvmOs | <ul><li> </li></ul> |
-| DescriptionBody |<ul><li> </li></ul> | IPv4Bundle | <ul><li> </li></ul> | SearchResultObject | <ul><li> </li></ul> |
+| DescriptionBody |<ul><li>- [x] </li></ul> | IPv4Bundle | <ul><li> </li></ul> | SearchResultObject | <ul><li> </li></ul> |
 | IpRDNSBody | <ul><li> </li></ul> | Ipv4BundleTemplate | <ul><li> </li></ul> | SecondaryOwner | <ul><li> </li></ul> |
 | IPDDoSStatus | <ul><li> </li></ul> | LinkIPv4BundleIPv4 | <ul><li> </li></ul> | CombahtonDDoSAttack | <ul><li> </li></ul> |
 | VpsReinstall | <ul><li> </li></ul> | Memory | <ul><li> </li></ul> | ServiceGroupInvite | <ul><li> </li></ul> |
