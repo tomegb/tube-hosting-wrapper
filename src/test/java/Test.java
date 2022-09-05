@@ -1,6 +1,6 @@
 import com.tube.hosting.java.tube.RestAccess;
 import com.tube.hosting.java.tube.objects.Locale;
-import com.tube.hosting.java.tube.requests.post.PostUserLocale;
+import com.tube.hosting.java.tube.requests.post.me.controller.PostUserLocale;
 
 public class Test {
 
