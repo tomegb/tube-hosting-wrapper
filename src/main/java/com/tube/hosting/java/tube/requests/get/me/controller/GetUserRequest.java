@@ -1,4 +1,4 @@
-package com.tube.hosting.java.tube.requests.get;
+package com.tube.hosting.java.tube.requests.get.me.controller;
 
 import com.tube.hosting.java.tube.objects.User;
 import com.tube.hosting.java.tube.requests.AbstractGetRequest;
