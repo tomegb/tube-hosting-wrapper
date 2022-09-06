@@ -1,4 +1,6 @@
-package com.tube.hosting.java.tube.objects;
+package com.tube.hosting.java.tube.objects.payment;
+
+import com.tube.hosting.java.tube.objects.ResponsableObject;
 
 public class UserPaymentInfo extends ResponsableObject {
 

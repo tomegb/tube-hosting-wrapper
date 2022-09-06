@@ -1,4 +1,4 @@
-package com.tube.hosting.java.tube.objects;
+package com.tube.hosting.java.tube.objects.server;
 
 import org.jetbrains.annotations.NotNull;
 

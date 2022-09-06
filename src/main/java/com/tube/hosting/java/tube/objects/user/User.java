@@ -1,6 +1,11 @@
-package com.tube.hosting.java.tube.objects;
+package com.tube.hosting.java.tube.objects.user;
 
 import com.google.gson.annotations.SerializedName;
+import com.tube.hosting.java.tube.objects.Locale;
+import com.tube.hosting.java.tube.objects.ResponsableObject;
+import com.tube.hosting.java.tube.objects.RoleTypes;
+import com.tube.hosting.java.tube.objects.payment.PriceTypes;
+import com.tube.hosting.java.tube.objects.payment.UserPaymentInfo;
 
 public class User extends ResponsableObject {
 

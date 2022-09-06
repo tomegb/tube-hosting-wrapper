@@ -1,5 +1,6 @@
-package com.tube.hosting.java.tube.objects;
+package com.tube.hosting.java.tube.objects.user;
 
+import com.tube.hosting.java.tube.objects.ResponsableObject;
 import org.jetbrains.annotations.NotNull;
 
 public class StatusMessageUserData extends ResponsableObject {

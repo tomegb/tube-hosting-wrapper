@@ -1,4 +1,6 @@
-package com.tube.hosting.java.tube.objects;
+package com.tube.hosting.java.tube.objects.user;
+
+import com.tube.hosting.java.tube.objects.ResponsableObject;
 
 public class Address extends ResponsableObject {
 
