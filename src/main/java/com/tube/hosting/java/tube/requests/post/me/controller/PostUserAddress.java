@@ -1,6 +1,6 @@
 package com.tube.hosting.java.tube.requests.post.me.controller;
 
-import com.tube.hosting.java.tube.objects.Address;
+import com.tube.hosting.java.tube.objects.user.Address;
 import com.tube.hosting.java.tube.objects.PlainMessage;
 import com.tube.hosting.java.tube.requests.AbstractPostRequest;
 
