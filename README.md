@@ -13,7 +13,7 @@ coming soon
 | PasswordChange | <ul><li>- [x] </li></ul> | IPv4 | <ul><li> </li></ul> | KvmOs | <ul><li> </li></ul> |
 | DescriptionBody |<ul><li>- [x] </li></ul> | IPv4Bundle | <ul><li> </li></ul> | SearchResultObject | <ul><li> </li></ul> |
 | IpRDNSBody | <ul><li>- [x] </li></ul> | Ipv4BundleTemplate | <ul><li> </li></ul> | SecondaryOwner | <ul><li> </li></ul> |
-| IPDDoSStatus | <ul><li> </li></ul> | LinkIPv4BundleIPv4 | <ul><li> </li></ul> | CombahtonDDoSAttack | <ul><li> </li></ul> |
+| IPDDoSStatus | <ul><li>- [x] </li></ul> | LinkIPv4BundleIPv4 | <ul><li> </li></ul> | CombahtonDDoSAttack | <ul><li> </li></ul> |
 | VpsReinstall | <ul><li> </li></ul> | Memory | <ul><li> </li></ul> | ServiceGroupInvite | <ul><li> </li></ul> |
 | StatusMessageUserData | <ul><li> </li></ul> | Price | <ul><li> </li></ul> | BalanceChange | <ul><li> </li></ul> |
 | AuthenticationRegisterData |<ul><li> </li></ul> | ServerPosition | <ul><li> </li></ul> | Invoice | <ul><li> </li></ul> |
