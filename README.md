@@ -21,7 +21,7 @@ coming soon
 | JWTTokenResponse | <ul><li> </li></ul> | ServiceGroupData | <ul><li> </li></ul> | Name | <ul><li> </li></ul> |
 | SupportData | <ul><li> </li></ul> | ServiceGroupMetaData | <ul><li> </li></ul> | Payment | <ul><li> </li></ul> |
 | User | <ul><li> </li></ul> | SimpleUser | <ul><li> </li></ul> | PaymentBundle | <ul><li> </li></ul> |
-| UserPaymentInfo |<ul><li> </li></ul> | SingleServiceGroupData | <ul><li> </li></ul> | SearchResultPaymentBundle | <ul><li> </li></ul> |
+| UserPaymentInfo |<ul><li>- [x] </li></ul> | SingleServiceGroupData | <ul><li> </li></ul> | SearchResultPaymentBundle | <ul><li> </li></ul> |
 | BalanceSendingRequest | <ul><li> </li></ul> | StackableDedicatedUpgrade | <ul><li> </li></ul> | SearchResultBalanceChange | <ul><li> </li></ul> |
 | BalanceChargeRequestBody | <ul><li> </li></ul> | Template | <ul><li> </li></ul> | CombahtonDDoSIPStatus | <ul><li> </li></ul> |
 | PaymentResponse | <ul><li> </li></ul> | TemplateGroup | <ul><li> </li></ul> | DDoSMetric | <ul><li> </li></ul> |
